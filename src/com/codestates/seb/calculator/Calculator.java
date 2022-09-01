@@ -14,5 +14,29 @@ public class Calculator {
             4. 연산 결과를 콘솔에 출력합니다.
         */
     // TODO...
-  }
+    public static double calculator (double a, String c, double b) {
+
+      a = input.nextLine();
+      c = intput.nextLine();
+      b = input.nextLine();
+
+      double result = 0;
+      if (c == "+") {
+        result = a + b;
+      }
+      else if (c == "-") {
+        result = a - b;
+      }
+      else if (c == "*") {
+        result = a * b;
+      }
+      else if (c == "/") {
+        result = a / b;
+      }
+      return
+      System.out.println(scanner);
+     }
+
+    }
+
 }
