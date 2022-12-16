@@ -24,7 +24,7 @@ public class Todo {
     @Column(nullable = false)
     private int todo_order;
 
-    @Column(nullable = false)
+    @Column
     private boolean completed = false;
 
 }
